@@ -1,12 +1,72 @@
-# React + Vite
+# 🌱 EcoTrucks Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**EcoTrucks** es una aplicación web diseñada para mejorar la gestión de residuos sólidos urbanos en Cartagena mediante tecnología de geolocalización, mapas interactivos y participación ciudadana. Este repositorio contiene el frontend del proyecto, desarrollado con React y herramientas modernas de desarrollo web.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+**Versión:** React 19 + Vite 7
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📦 Librerías principales
+
+- **React** – Librería para construir interfaces dinámicas y modulares.
+- **Vite** – Bundler ultrarrápido con soporte nativo para módulos ES.
+- **Tailwind CSS** – Framework de estilos utilitario para diseño responsivo.
+- **React Router DOM** – Navegación entre vistas con rutas declarativas.
+- **React Hook Form** – Manejo eficiente de formularios y validación.
+- **Axios** – Cliente HTTP para consumir APIs REST.
+- **Socket.IO Client** – Comunicación en tiempo real con el backend.
+- **Leaflet + React Leaflet** – Mapas interactivos basados en OpenStreetMap.
+- **@turf/turf** – Cálculos geoespaciales (distancias, geocercas, buffers).
+- **Zustand** – Manejo de estado global con una API simple y escalable.
+- **React Icons** – Iconografía ligera y personalizable.
+
+### 🛠️ Herramientas de desarrollo
+
+- **ESLint + Prettier** – Linter y formateador para mantener código limpio.
+- **PostCSS + Autoprefixer** – Procesamiento de estilos y compatibilidad.
+- **Vite Plugin React** – Integración optimizada de React en Vite.
+- **Type Definitions (`@types/react`)** – Tipado para mejorar la experiencia en desarrollo.
+
+---
+
+
+---
+
+## 📍 Funcionalidades principales
+
+- Visualización de rutas y zonas de cobertura en tiempo real.
+- Reporte de acumulación de basura desde el mapa.
+- Seguimiento de ubicación del usuario con geolocalización nativa.
+- Simulación de movimiento de camiones recolectores.
+- Interfaz adaptada para distintos roles (usuario, conductor).
+- Diseño responsivo y accesible.
+
+---
+## Conexión futura con backend
+- Este frontend está preparado para conectarse con un backend desarrollado en Java 21 usando tecnologías como Spring Web, Spring Data JPA/MongoDB y WebSocket. La lógica de comunicación en tiempo real ya está integrada con socket.io-client, lista para consumir eventos desde el servidor.
+
+## 📄 Licencia
+Este proyecto está bajo la licencia Fundacion Universitaria Tecnologico Comfenalco.
+
+## ✉️ Contacto
+- Desarrollado por Joseph Armando Vanegas Mejía & compañia 📍 Cartagena, Bolívar – Colombia
+
+---
+## 🧪 Instalación y ejecución
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/tu-usuario/ecotrucks-f.git
+cd ecotrucks-f
+
+# Instalar dependencias
+npm install
+
+# Ejecutar en modo desarrollo
+npm run dev
+
+
+## 📁 Estructura del proyecto
+
